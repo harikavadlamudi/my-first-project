@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Parallax Scrolling Demo</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  .parallax-container {
+    width: 100%;
+    height: 1200px; /* Adjust height as needed */
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 1px;
+    position: relative; /* Ensure positioning context for absolutely positioned children */
+  }
+  .parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('natu5.jpeg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    transform: translateZ(-1px) scale(2);
+    height: 200%;
+    z-index: -1;
+  }
+  .parallax-content {
+    position: relative; /* Ensure content stays above background */
+    z-index: 1;
+    padding: 100px 20px;
+    text-align: center;
+  }
+  h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+ .resume-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .resume-link:hover {
+    background-color: #45a049;
+</style>
+</head>
+<body>
+  <div class="parallax-container">
+    <div class="parallax-bg"></div>
+    <div class="parallax-content">
+      <h1>Vadlamudi Harika-Aspiring Software Engineer</h1>
+<p>
+      <h2>ABOUT ME</h2>
+      <p>I am very fast learner with the adopted technology in the current trend</p>
+<p> I can adapt myself to any kind of environment easily</p>
+<h2><strong>TECHNICAL SKILLS</strong></h2>
+<p><strong>Intermediate:</strong>Python</p>
+<p><strong>Novice:</strong>html,java</p>
+<h2>PROJECTS</h2>
+<p><strong>Project1:</strong>Diary App</p>
+<p><strong>-Description:</strong>A diary app using python. Which stores the information in text files and keeps the track of saved files and display information whenever user wants it.</p>
+<p><strong>Project2:</strong>Parallax Website</p>
+<p><strong>-Description:</strong>A website using Html and Css.A parallax website to present personal and professional information</p>
+<p><strong>Project3:</strong>Student Registration Form</p>
+<p><strong>-Description:</strong>A registration form is a web page where students can enter their information to sign up for something like a course or event.</p>
+<h2>EDUCATION</h2>
+<p><strong>B.Tech CSE</strong></p>
+<p>Malineni Lakshmaiah Women's Engineering College</p>
+<p>2023-Present|Guntur</p>
+<p>CGPA:8.5</p>
+<p><strong>Intermediate MPC</strong></p>
+<p>Sri Gayatri Junior College</p>
+<p>2019-21|Vijayawada</p>
+<p>Percentage:95%</p>
+<p><strong>SSC</strong></p>
+<p>s.v.k.m.z.p.hSchool</p>
+<p>2015-2019|Chandarlapadu</p>
+<p>CGPA:9.8</P>
+<h2>ACHIEVEMENTS</h2>
+<P>-3rd Prize Winner,Poster presentation-Cyber Security which is held on march 2024</p>
+<p>-1st prize winner,Essay Writing on Swami Vivekananda</p>
+<h2>CERTIFICATIONS</h2>
+<p>-Java Programming:NPTEL certificate</p>
+<p>Cyber Security:Paloalto Networks</p>
+<p>Java Programming:By Great Learning</p>
+<h2>LINKS</h2>
+<P>codechef://harika_v224</p>
+<p>hackerrank://@vadlamudiharika4</p>
+<h2>HOBBIES</H2>
+<p>-Drawing</p>
+<p>-Cooking</p>
+<a class="resume-link" href="resume1.pdf" target="_blank" rel="noopener noreferrer">View My Resume</a>
+
+ </div>
+</div>
+</body>
+</html>
